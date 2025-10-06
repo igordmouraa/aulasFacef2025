@@ -8,4 +8,4 @@ for i in range(N):
 soma = 0
 for i in range(N):
     soma += vet[i]
-print(f'Soma: {soma}') # 
+print(f'Soma: {soma}') 
