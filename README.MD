@@ -9,26 +9,10 @@
 O repositório está organizado da seguinte forma:
 
 - **`progComp2025/`**: Pasta dedicada aos arquivos e códigos das aulas de **Programação de Computadores**, ministradas pelo professor Daniel Pires.
+- **`algLogicaProg2025/`**: Pasta dedicada aos arquivos e códigos das aulas de **Algoritmo e Lógica de Programação**, ministradas pela professora Jaqueline Pugliesi
 
 ---
 
-## 🛠️ Requisitos Técnicos
-
-Para compilar e executar os códigos disponíveis neste repositório, é necessário ter o **Node.js** instalado. Abaixo estão as versões que estou utilizando:
-
-- **Node.js**: v20.16.0
-- **npm**: v10.8.1
-
-### Como verificar as versões instaladas:
-
-```bash
-node --version
-# Saída esperada: v20.16.0
-
-npm --version
-# Saída esperada: 10.8.1
-
-```
 
 ## 🚀 Como Utilizar Este Repositório
 
@@ -40,11 +24,6 @@ git clone https://github.com/igordmouraa/aulasFacef2025
 2. Navegue até a pasta desejada (por exemplo, **progComp2025/**):
 ```
 cd /progComp2025
-```
-
-3. Execute os códigos utilizando o Node.js:
-```
-node archive.js
 ```
 
 ## 📝 Contribuições
