@@ -123,7 +123,7 @@ function promoveFuncSalarioAbaixoDaMediaEm15(funcionarios, mediaSalario) {
     if (funcionarios.length === 0) {
         alert('Nenhum funcionário cadastrado.');
         return;
-        
+
     };
     
     mediaSalario = funcionarios.reduce((acc, f) => acc + f.salary, 0) / funcionarios.length;
