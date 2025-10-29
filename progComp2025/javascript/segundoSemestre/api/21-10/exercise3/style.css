@@ -6,13 +6,25 @@ body {
 
 header {
     display: flex;
-    justify-content: center; /* Ajuste: 'justify-content' é o correto para centralizar com flex */
+    justify-content: center;
     margin-bottom: 20px;
 }
 
-
 h1 {
     color: #333;
+}
+
+.search-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 #posts {
@@ -26,6 +38,12 @@ h1 {
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-poster {
+    max-width: 200px;
+    border-radius: 5px;
+    margin-top: 15px;
 }
 
 .post-title {
@@ -45,7 +63,6 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-bottom: 20px; /* Ajuste: Adiciona espaço abaixo do botão */
 }
 button:hover {
     background-color: #0056b3;

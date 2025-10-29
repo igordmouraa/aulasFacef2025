@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Blog da FACEF</title>
+    <title>Busca Filmes OMDb</title>
 </head>
 <body>
     <header>
         <h1>
-            Blog da FACEF
+            Busca de Filmes (OMDb API)
         </h1>
     </header>
 
-    <button onclick="carregaPosts()">
-        Carregar Posts
-    </button>
+    <div class="search-container">
+        <input type="text" id="inputFilme" placeholder="Digite o nome do filme">
+        <button onclick="buscarFilme()">
+            Buscar Filme
+        </button>
+    </div>
 
     <section id="posts">
         </section>

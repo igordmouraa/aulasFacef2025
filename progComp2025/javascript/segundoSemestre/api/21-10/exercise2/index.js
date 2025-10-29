@@ -10,6 +10,11 @@ async function carregaPosts(params) {
             const article = document.createElement('article');
             const title   = document.createElement('h2');
             const body    = document.createElement('p');
+
+            article.className = 'post';
+            title.className   = 'post-title';
+            body.className    = 'post-body';
+
             title.textContent = posts[i].title;
             body.textContent  = posts[i].body;
             article.appendChild(title);
