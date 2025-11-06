@@ -8,10 +8,6 @@ const soma = (a, b) => {
     return result;
 };
 
-const message = () => {
-    
-};
-
 const main = () => {
     setTimeout(() => {
         message = 'Olá Mundo!'
